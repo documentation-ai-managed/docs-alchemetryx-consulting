@@ -1,0 +1,125 @@
+{
+  "name": "Alchemetryx Consulting",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#d2a83b"
+    },
+    "dark": {
+      "brand": "#ddbe6c"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "home"
+              },
+              {
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "play"
+              }
+            ]
+          },
+          {
+            "group": "Our Services",
+            "icon": "layers",
+            "pages": [
+              {
+                "title": "Our Services",
+                "path": "our-services",
+                "icon": "file-text"
+              }
+            ]
+          },
+          {
+            "group": "Methodology",
+            "icon": "compass",
+            "pages": [
+              {
+                "title": "Our Methodology",
+                "path": "methodology",
+                "icon": "star"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Help Center",
+        "icon": "help-circle",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
+          },
+          {
+            "group": "FAQs",
+            "icon": "help-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "How to Get Started",
+                "path": "help-center/faq/how-to-get-started"
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "icon": "alert-triangle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Workflow Sync Issues",
+                "path": "help-center/troubleshooting/workflow-sync-issues"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Setting Up Your Dashboard",
+                "path": "help-center/guides/setting-up-your-dashboard"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
